@@ -4,5 +4,41 @@ ul{
 }
 li{
     display: inline-block;
+    margin-inline-start: 200px;
+
+}
+
+
+.photo{
+    width: 423px;
+}
+
+img{
+    width: 100%;
+
+}
+
+.block{
+    width: 49%;
+    display: inline-block;
+}
+
+.main{
+    margin: auto;
+    width: 1000px;
+
+}
+
+.footer{
+    width:164px;
+    margin: auto;
+    
+}
+
+.btn{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    border: 1px solid black;
     
 }
