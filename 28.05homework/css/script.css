@@ -4,13 +4,22 @@ ul{
 }
 li{
     display: inline-block;
-    margin-inline-start: 200px;
+    
+    
+    margin-right: 40px;
+
+}
+.header{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 
 }
 
-
 .photo{
-    width: 423px;
+    width: 420px;
+    overflow: hidden;
+    height: 280px;
 }
 
 img{
@@ -19,8 +28,9 @@ img{
 }
 
 .block{
-    width: 49%;
+    width: 40%;
     display: inline-block;
+    padding: 20px;
 }
 
 .main{
