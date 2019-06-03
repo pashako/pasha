@@ -52,3 +52,13 @@ img{
     border: 1px solid black;
     
 }
+
+a:hover{
+    color:rgb(76, 76, 247);
+    
+}
+
+a{
+    text-decoration: none;
+    color:black; 
+}
