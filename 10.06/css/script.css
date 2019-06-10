@@ -1,0 +1,55 @@
+li{
+    list-style-type: none;
+    float:left;
+    margin-right:20px;
+}
+
+a:hover{
+    color: rgba(11, 230, 238, 0.897);
+    font-style: italic;
+}
+
+.menu{
+    width:600px;
+    margin: auto;
+    height: 50px;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nomer2{
+    font-style: normal;
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+
+.spisok li:nth-child(3n){
+    color: #88292F
+}
+
+
+.spisok li:nth-child(3n+1){
+    color: #5DB7DE
+}
+
+
+.spisok li:nth-child(3n+2){
+    color: #0D5D56
+}
+
+.list li::before{
+    content: "\2192";
+}
+.list{
+    font-style: normal;
+    width: 150px;
+    height: 100px;
+    float: none;    
+}
+.list li::after{
+    content: "\2615";
+}
