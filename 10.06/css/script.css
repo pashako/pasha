@@ -53,3 +53,96 @@ a{
 .list li::after{
     content: "\2615";
 }
+
+.zadan4{
+    font-style: normal;
+    width: 140px;
+    height: 100px;
+    float: none;
+}
+
+.zadan4 li:nth-child(1):before{
+    content: "\2160 ";
+    margin-right: 10px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    background-color: #5DB7DE;
+    display: inline-block;
+    text-align: center;
+}
+
+.zadan4 li:nth-child(2):before{
+    content: "\2161 ";
+    margin-right: 10px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    background-color: #5DB7DE;
+    display: inline-block;
+    text-align: center;
+}
+
+.zadan4 li:nth-child(3):before{
+    content: "\2162 ";
+    margin-right: 10px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    background-color: #5DB7DE;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.zadan4 li:nth-child(4):before{
+    content: "\2163 ";
+    margin-right: 10px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    background-color: #5DB7DE;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.zadan4 li:nth-child(5):before{
+    content: "\2164 ";
+    margin-right: 11px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    background-color: #5DB7DE;
+    display: inline-block;
+    text-align: center;
+
+}
+.zadan4 li:nth-child(1):hover::before{
+    width: 30px;
+    color:red;
+    height: 30px;
+    text-align: center;
+    display: none;
+}
+
+
+
+.zadan4 li:nth-child(1)::after{
+    content: "\2160";
+    margin-right: 10px; 
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    background-color: #5DB7DE;
+    display: none;
+    text-align: center;
+}
+.zadan4 li:nth-child(1):hover::after{
+    width: 30px;
+    color:red;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
