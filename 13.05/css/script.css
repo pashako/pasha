@@ -83,6 +83,7 @@ li{
     overflow: hidden;
     position: relative;
     display: inline-block;
+    margin-right: 19px;
     
 }
 
@@ -133,11 +134,94 @@ img{
 
 }
 
+.vcio{
+    margin-top: 92px;
+    margin-bottom: 105px;
+}
+
 .name_shitrt{
     padding-left: 10px;
     color: white;
 }
 
-.vcio{
+.name_shitrt:hover{
+    background-color: #1abc9c;
+}
+
+.prise:hover{
+    background-color: #7fd9c7;
+}
+
+.zagolovok2{
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+}
+
+.zagolovok2::after{
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    display: block;
+    margin: auto;
+    margin-top: 32px;
+
+}
+.Image{
+    width: 350px;
+}
+
+.image{
+    width: 100%;
+}
+
+.newszagolov{
+    font-size: 18px;
+    text-align: left;
+}
+
+.news{
+    width: 350px;
+    display: inline-block;
+    margin-right: 17px;
+
+}
+
+.Newszagolov{
+    margin-top: 14px;
     
 }
+
+.newszagolov::after{
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 29px;
+}
+
+
+.content{
+    text-align: left;
+    font-size: 14pt;
+
+}
+
+button{
+    width: 160px;
+    height: 51px;
+    background-color: #4ec6ab;
+    margin-top: 16px;
+}
+
+.button{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 255);
+
+}
+
+
