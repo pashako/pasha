@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px gray 2px;
+    border: 1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 30px;
+}
+
+input{
+    width: 80%;
+    margin: 0 auto 30px;  
+}
+
+textarea{
+    width: 80%;
+    margin: 0 auto 30px;
+}
+.btn{
+    width: 30%;
+    height: 40px;
+    background-color: red;
+    border: none;
+}
+
+input::placeholder{
+    text-indent: 10px;
+}
+
+textarea::placeholder{
+    text-indent: 10px;
+}

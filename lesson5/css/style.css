@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper{
+    padding: 20px 0 20px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.logo{
+    font-weight: 100;
+}
+.logo::first-letter{
+    font-weight: 700;
+    color: #1abc9c;
+
+}
+.logoLink:hover{
+    color: #1abc9c;
+}
+
+.logoLink{
+    text-decoration: none;
+    color: black;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+}
+
+.menu>li:hover{
+    color: #1abc9c;
+    cursor: pointer;
+}
+
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.3)), url(https://www.w3schools.com/howto/img_snow.jpg);
+    height: 602px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin: 0 20px 0 20px;
+    text-align: left;
+    color: aliceblue;
+
+}
+
+.button{
+    background-color: #1abc9c;
+    height: 104px;
+    width: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.text>h2{
+    font-size:35px;
+
+}
